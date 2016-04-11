@@ -10,6 +10,7 @@ public class Myshowlog {
 		Logger logger = Logger.getLogger(Myshowlog.class);
 		logger.debug(" debug ");
 		logger.error(" error ");
+
 	}
 
 }
