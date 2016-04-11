@@ -9,7 +9,7 @@ public class Myshowlog {
 		PropertyConfigurator.configure("src/test/resources/com/help/test/log/log4j.properties");
 		Logger logger = Logger.getLogger(Myshowlog.class);
 		logger.debug(" debug ");
-		logger.error(" error ");
+		logger.error(" error zheshi yige bug");
 
 	}
 
