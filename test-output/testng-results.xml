@@ -1,0 +1,38 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="focus_help" duration-ms="864" started-at="2016-04-06T15:36:23Z" finished-at="2016-04-06T15:36:24Z">
+    <groups>
+    </groups>
+    <test name="com.help.test.mySpring.jpa.Mytetst" duration-ms="864" started-at="2016-04-06T15:36:23Z" finished-at="2016-04-06T15:36:24Z">
+      <class name="com.help.test.mySpring.jpa.Mytetst">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()" name="springTestContextBeforeTestClass" is-config="true" duration-ms="4" started-at="2016-04-06T15:36:23Z" finished-at="2016-04-06T15:36:23Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="634" started-at="2016-04-06T15:36:23Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-04-06T15:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-04-06T15:36:24Z" finished-at="2016-04-06T15:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.help.test.mySpring.jpa.Mytetst.Erew()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Erew()" name="Erew" duration-ms="216" started-at="2016-04-06T15:36:24Z" finished-at="2016-04-06T15:36:24Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-04-06T15:36:24Z" finished-at="2016-04-06T15:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.help.test.mySpring.jpa.Mytetst.Erew()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestClass()" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-04-06T15:36:24Z" finished-at="2016-04-06T15:36:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
