@@ -10,7 +10,7 @@ public class Myshowlog {
 		Logger logger = Logger.getLogger(Myshowlog.class);
 		logger.debug(" debug ");
 		logger.error(" error zheshi yige 111b bug");
-
+		logger.info(" this is a bug for the just test");
 	}
 
 }
